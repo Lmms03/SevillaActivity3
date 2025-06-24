@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 300px;
+}
+
+.icon-circle {
+  background-color: white;
+  font-size: 60px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.fas.fa-book {
+  font-size: 48px;
+  color: #B22222;
+}
+
+.profile-name {
+  font-size: 1.5em;
+  margin: 0;
+  color: #333;
+}
+
+.profile-bio {
+  color: #666;
+  font-size: 0.95em;
+  margin-bottom: 20px;
+}
+
+#follow-btn {
+  padding: 10px 20px;
+  background-color: #B22222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#follow-btn.following {
+  background-color: #aaa;
+}
